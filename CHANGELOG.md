@@ -1,5 +1,9 @@
 # Minify Maven Plugin
 
+## 1.5.1
+
+* [MINIFY-3] CSS minification fails for base64 encoded background images.
+
 ## 1.5
 
 * [MINIFY-1] Fixed charset issue.
