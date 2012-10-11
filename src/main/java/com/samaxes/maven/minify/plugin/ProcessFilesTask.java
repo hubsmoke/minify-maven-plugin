@@ -252,7 +252,6 @@ public abstract class ProcessFilesTask implements Callable<Object> {
                 includedFiles.add(new File(baseDir, includedFilename));
             }
 
-            Collections.sort(includedFiles, new FilenameComparator());
         }
 
         return includedFiles;
